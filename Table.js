@@ -1,9 +1,9 @@
 class Table{
 
-    constructor(array){
-            this.header = array[0];
-            array.shift();
-            this.rows = array;
+    constructor(arr){
+            this.header = arr[0];
+            arr.shift();
+            this.rows = arr;
     }
     
     get RowCount(){
